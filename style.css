@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	margin: 0%;
+	font-family: serif;
+	font-size: 30px;
+	height: 1000px;
+	background: linear-gradient(141deg, lightblue 10%, #2cb5e8 40%, dodgerblue 60%, blue 75%);
+  }
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}

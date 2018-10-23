@@ -1,10 +1,5 @@
 <?php
-/*
- * Created by PhpStorm.
- * User: MAMI
- * Date: 7/4/2018
- * Time: 4:34 PM
- */
+
 function unique_coupon_codes($number_of_codes, $exclude_codes_array='', $code_length = 8) {
 	$characters = "0123456789QWERTYUIOPASDFGHJKLZXCVBNM";
 
