@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Rating</title>
+    <style>
+        h2 {
+            text-align: left;
+            padding-left: 20px;
+            color: white;
+            font-size: 30px;
+            font-family: Calibri;
+
+        }
+
+        #box {
+            outline: 10px double;
+            outline-color: black;
+            outline-offset: 1px;
+            background: steelblue;
+            width: 450px;
+            margin-top: 40px;
+            margin-left: 45px;
+            text-align: right;
+            display: inline-block;
+
+        }
+
+        #box1 {
+            outline: 10px double;
+            outline-color: black;
+            outline-offset: 1px;
+            background: steelblue;
+            width: 450px;
+            margin-left: 25px;
+            text-align: right;
+            display: inline-block;
+        }
+
+        #box2 {
+            outline: 10px double;
+            outline-color: black;
+            outline-offset: 1px;
+            background: steelblue;
+            width: 450px;
+            margin-left: 25px;
+            text-align: right;
+            display: inline-block;
+        }
+
+        .star-icon {
+            color: ghostwhite;
+            font-size: 2em;
+            position: relative;
+        }
+
+        .star-icon.full:before {
+            color: yellow;
+            content: '\2605';
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div id="box">
+    <h2>Rating</h2>
+    <div class="position">
+        <span class="star-icon full">☆</span>
+        <span class="star-icon full">☆</span>
+        <span class="star-icon ">☆</span>
+        <span class="star-icon ">☆</span>
+        <span class="star-icon">☆</span>
+    </div>
+</div>
+<div id="box1">
+    <h2>Rating</h2>
+    <div class="position">
+        <span class="star-icon full ">☆</span>
+        <span class="star-icon full">☆</span>
+        <span class="star-icon full">☆</span>
+        <span class="star-icon ">☆</span>
+        <span class="star-icon">☆</span>
+    </div>
+</div>
+<div id="box2">
+    <h2>Rating</h2>
+    <div class="position">
+        <span class="star-icon full">☆</span>
+        <span class="star-icon full">☆</span>
+        <span class="star-icon full">☆</span>
+        <span class="star-icon full">☆</span>
+        <span class="star-icon">☆</span>
+    </div>
+</div>
+
+</body>
+
+</html>
